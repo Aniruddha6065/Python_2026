@@ -1,0 +1,1 @@
+# WAP to input 2 floating point numbers & print their average.
