@@ -25,3 +25,4 @@ print(str1)
 # length of string
 print(len(str1))
 
+sdmnflkjg#vodjoidfjodfiojgijdk
