@@ -38,3 +38,25 @@ str1 = "Hello"
 str2 = "ASG"
 print(len(str1), len(str2))
 print(len(str1 + " " + str2)) # here we add space between two strings so it will count the space also.
+
+# Indexing
+'''
+Indexing is kind of saying that character gets is postion number in string. In python, 
+indexing starts from 0.
+'''
+str1= "ASGBother"
+print(str1[0])  # Output: A
+print(str1[1])  # Output: S
+
+# Slicing in strings
+# Accessing parts of strings is called slicing. Slicing is done by using the colon operator(:) inside
+# the square brackets. The syntax for slicing is: string[start:end:step]
+Str="ASGBother"
+str=Str[0:3] # it will print the string from index 0 to 2
+print(str) # Output: ASG
+str=Str[3:8] # it will print the string from index 3 to 7
+print(str) # Output: Bother
+str10 = Str[0:5:2] # it will print the string from index 0 to 7 with step 2
+print(str10) # Output: AGBte
+str=Str[:2] # it will print the string from index 0 to end with step 2
+print(str) # Output: ASG
