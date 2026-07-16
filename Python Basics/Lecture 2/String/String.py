@@ -20,9 +20,21 @@ not understanded what to do with "s tutorial" this part of string '''
 # Basic Operations on Strings
 # 1. Concatenation 
 # we can concatenate two or more strings using the + operator.
-str1 = "Hello"+"ASG"
-print(str1)
+
+str1 = "Hello"
+str2 = "ASG"
+str3 = str1 + str2
+str4 = "Hello"+"ASG"
+print(str3)
+print(str4)
+
 # length of string
 print(len(str1))
+print(len(str3))
 
-sdmnflkjg#vodjoidfjodfiojgijdk
+# length count every thing in string including spaces, special characters, and numbers.
+# let see the example
+str1 = "Hello"
+str2 = "ASG"
+print(len(str1), len(str2))
+print(len(str1 + " " + str2)) # here we add space between two strings so it will count the space also.
