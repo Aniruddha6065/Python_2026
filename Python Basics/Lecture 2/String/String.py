@@ -21,42 +21,50 @@ not understanded what to do with "s tutorial" this part of string '''
 # 1. Concatenation 
 # we can concatenate two or more strings using the + operator.
 
-str1 = "Hello"
-str2 = "ASG"
-str3 = str1 + str2
-str4 = "Hello"+"ASG"
-print(str3)
-print(str4)
+str4 = "Hello"
+str5 = "ASG"
+str7 = str4 + str5
+str6 = "Hello"+"ASG"
+print(str6)
+print(str7)
 
 # length of string
-print(len(str1))
-print(len(str3))
+print(len(str4))
+print(len(str7))
 
 # length count every thing in string including spaces, special characters, and numbers.
 # let see the example
-str1 = "Hello"
-str2 = "ASG"
-print(len(str1), len(str2))
-print(len(str1 + " " + str2)) # here we add space between two strings so it will count the space also.
+str9 = "Hello"
+str10 = "ASG"
+print(len(str9), len(str10))
+print(len(str9 + " " + str10)) # here we add space between two strings so it will count the space also.
 
 # Indexing
 '''
 Indexing is kind of saying that character gets is postion number in string. In python, 
 indexing starts from 0.
 '''
-str1= "ASGBother"
-print(str1[0])  # Output: A
-print(str1[1])  # Output: S
+str11 = "ASGBother"
+print(str11[0])  # Output: A
+print(str11[1])  # Output: S
 
 # Slicing in strings
 # Accessing parts of strings is called slicing. Slicing is done by using the colon operator(:) inside
 # the square brackets. The syntax for slicing is: string[start:end:step]
-Str="ASGBother"
-str=Str[0:3] # it will print the string from index 0 to 2
-print(str) # Output: ASG
-str=Str[3:8] # it q 
-print(str) # Output: Bother
-str10 = Str[0:5:2] # it will print the string from index 0 to 7 with step 2
-print(str10) # Output: AGBte
-str=Str[:2] # it will print the string from index 0 to end with step 2
-print(str) # Output: ASG
+
+Str12="ASGBother"
+
+strtest1=Str12[0:3] # it will print the string from index 0 to 2
+print(strtest1) # Output: ASG
+
+strtest2=Str12[3:8] # it will print the string from index 3 to 7
+print(strtest2) # Output: Bothe
+
+strtest3 = Str12[0:5:2] # it will print the string from index 0 to 4 with step 2
+print(strtest3) # Output: AGBte
+
+strtest4=Str12[:8] # it will print the string from index 0 to end with step 2
+print(strtest4) # Output: ASG
+
+strtest5=Str12[1:4] # it will print the string from index 1 to 3
+print(strtest5) # Output: SGB
