@@ -68,3 +68,10 @@ print(strtest4) # Output: ASG
 
 strtest5=Str12[1:4] # it will print the string from index 1 to 3
 print(strtest5) # Output: SGB
+
+#Slincing with negative index
+strtest6=Str12[-8:-3] # it will print the string from index -8 to -4
+print(strtest6) # Output: SGBot
+
+strtest7=Str12[-1:-2] # it will print the string from index -1 to -2
+print(strtest7) # Output: other
