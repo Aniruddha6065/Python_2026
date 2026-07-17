@@ -54,7 +54,7 @@ print(str1[1])  # Output: S
 Str="ASGBother"
 str=Str[0:3] # it will print the string from index 0 to 2
 print(str) # Output: ASG
-str=Str[3:8] # it will print the string from index 3 to 7
+str=Str[3:8] # it q 
 print(str) # Output: Bother
 str10 = Str[0:5:2] # it will print the string from index 0 to 7 with step 2
 print(str10) # Output: AGBte
