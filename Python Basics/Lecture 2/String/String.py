@@ -55,23 +55,23 @@ print(str11[1])  # Output: S
 Str12="ASGBother"
 
 strtest1=Str12[0:3] # it will print the string from index 0 to 2
-print(strtest1) # Output: ASG
+print(strtest1) # Output: 
 
 strtest2=Str12[3:8] # it will print the string from index 3 to 7
-print(strtest2) # Output: Bothe
+print(strtest2) # Output: 
 
 strtest3 = Str12[0:5:2] # it will print the string from index 0 to 4 with step 2
-print(strtest3) # Output: AGBte
+print(strtest3) # Output: 
 
 strtest4=Str12[:8] # it will print the string from index 0 to end with step 2
-print(strtest4) # Output: ASG
+print(strtest4) # Output: 
 
 strtest5=Str12[1:4] # it will print the string from index 1 to 3
-print(strtest5) # Output: SGB
+print(strtest5) # Output: 
 
 #Slincing with negative index
 strtest6=Str12[-8:-3] # it will print the string from index -8 to -4
-print(strtest6) # Output: SGBot
+print(strtest6) # Output:
 
-strtest7=Str12[-1:-2] # it will print the string from index -1 to -2
-print(strtest7) # Output: other
+strtest7=Str12[-1:-5] # it will print the string from index -1 to -2
+print(strtest7) # Output: 
