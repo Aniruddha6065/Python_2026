@@ -73,5 +73,6 @@ print(strtest5) # Output:
 strtest6=Str12[-8:-3] # it will print the string from index -8 to -4
 print(strtest6) # Output:
 
-strtest7=Str12[-1:-5] # it will print the string from index -1 to -2
+Ste13="apple"
+strtest7=Ste13[-3:-1] # it will print the string from index -1 to -2
 print(strtest7) # Output: 
